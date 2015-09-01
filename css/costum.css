@@ -30,18 +30,24 @@ body{
 	margin: 0px;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
-}
+	}
+h1{
+	color: red;
+	}
+	img{
+		float: right;
+	}
 nav > ul {
 	margin: 0;
-}
+	}
 a:hover {
 	background: #E1A7C4;
-}
+	width: 420px;
+	}
 nav ul li a{
 	height: 70px;
-	width: 120px;
-	background: #CC66ff;
-}
+	width: 420px;
+	}
 nav ul li{
 	display: inline-block;
 	list-style-type: none;
@@ -49,13 +55,11 @@ nav ul li{
 	text-align: center;
 	color: white;
 	padding-top: 16px;
-
-
 	}
 	a{
  text-decoration:none; 
 
-} 
+	} 
 nav1 ul li{
 	font-family: arial;
 	background: #CC6699;
@@ -90,13 +94,14 @@ nav1 ul li{
 }
 #center{
 	border: 1px solid purple;
-	height: 800px;
+	height: 100%;
 	width: 58%;
 	background: #E1D8DC;
 	float: right;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
 	margin-right: 9px; 
+	padding: 5px;
 }
 .sideleft{
 	border: 1px solid purple;
