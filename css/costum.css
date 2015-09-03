@@ -24,7 +24,7 @@ body{
 	background-color: #CC6699;
 	width: 100%;
 	height: 50px;
-	font-family: madave , hemi head , papyrus;
+	font-family: courier;
 	font-size: 14pt;
 	color: black;
 	margin: 0px;
@@ -73,6 +73,7 @@ nav1 ul li{
 	padding-top: 5px;
 	border: 1px solid purple;
 	font-size: 16pt;
+	font-family: indie flower;
 } 
 
 .main{
@@ -84,34 +85,32 @@ nav1 ul li{
 	background-color: #E1A7C4; 
 }
 .sideright{
-	border: 1px solid purple;
+	border: 1px solid white;
+	height: 380px;
 	width: 20%;
-	height: 800px;
-	background: #E1D8DC;
 	border-bottom-left-radius: 25px;
 	border-top-right-radius:25px; 
 	float: right;
+	padding:10px;
+	background: #B2B2CC;
+	font-family: indie flower;
 }
 #center{
-	border: 1px solid purple;
-	height: 100%;
-	width: 58%;
-	background: #E1D8DC;
-	float: right;
+	width: 55%;
+	float: left;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
 	margin-right: 9px; 
 	padding: 5px;
+	font-family: indie Flower;
 }
 .sideleft{
-	border: 1px solid purple;
 	width: 20%;
-	height: 800px;
-	background: #E1D8DC;
 	border-bottom-right-radius: 25px;
 	border-top-left-radius:25px; 
 	float: left;
 	text-align: left;
+	font-family: indie Flower;
 }
 #footer{
 	border: 1px solid clear;
@@ -121,7 +120,11 @@ nav1 ul li{
 	margin-top: 35px;
 	text-align: center;
 	padding-top: 55px;
-
-	
-
+}
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
 }
